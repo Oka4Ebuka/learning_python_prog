@@ -49,7 +49,3 @@ for letter in word:
         found.setdefault(letter, 0)
         found[letter] +=1
         print(found)
-
-vowels = ['a', 'e', 'e', 'i', 'o', 'u', 'u']
-vowels = set('aaeiouu')
-print(vowels)
