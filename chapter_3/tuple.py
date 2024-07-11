@@ -26,4 +26,12 @@ people['ford'] = {'name': 'ford prefect', 'gender': 'male', 'occupation': 'resea
 people['tricia'] = {'name': 'tricia mcmillan', 'gender': 'female', 'occupation': 'mathematician', 'home planet': 'earth'}
 people['arthur'] = {'name': 'arthur dent', 'gender': 'male', 'occupation': 'sandwich-maker', 'home planet': 'earth'}
 people['robot'] = {'name': 'marvin', 'gender': 'male', 'occupation': 'paranoid android', 'home planet': 'unknown'}
-print(people)
+#print(people)
+
+import pprint
+pprint.pprint(people)
+print(pprint.pprint(people))
+
+people['arthur'] = {'name': 'arthur dent', 'gender': 'male', 'occupation': 'sandwich-maker', 'home planet': 'earth'}
+people['arthur']['occupation']
+print(people['arthur']['occupation'])
