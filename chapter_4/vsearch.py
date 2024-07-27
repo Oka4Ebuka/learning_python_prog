@@ -7,3 +7,10 @@ def search4vowels():
         print(vowel)
 search4vowels()
 
+bool(0)
+bool(0.0)
+bool('')
+bool([])
+bool({})
+bool(None)
+print(bool(None))
