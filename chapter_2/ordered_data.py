@@ -77,9 +77,6 @@ print(third)
 third.append(7)
 print(third)
 
-car = list(u for u in range(1, 10, 1))
-print(car)
-
 word = "don't panic"
 wordlist = list(word)
 wordlist[0:10:3]
